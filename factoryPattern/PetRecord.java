@@ -4,6 +4,11 @@ public class PetRecord {
     private String petId;
     private String petName;
     private Pet pet;
+    private String petBreed;
+    public Integer getnOflives(){
+
+        return getnOflives();
+    }
 
     public String getPetId() {
         return petId;
@@ -24,8 +29,17 @@ public class PetRecord {
     public Pet getPet() {
         return pet;
     }
-
     public void setPet(Pet pet) {
         this.pet = pet;
+    }
+public void setPetBreed(String petBreed){
+        this.petBreed = petBreed;
+}
+
+public String getPetBreed(){
+    return petBreed;
+}
+
+    public void setNoOfLives(Integer noOfLives) {
     }
 }
